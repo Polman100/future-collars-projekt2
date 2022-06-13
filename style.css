@@ -1,0 +1,232 @@
+html, body {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #4E4E4E;
+}
+.container {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: auto;
+    background-color: #4E4E4E;
+}
+.wrapper {
+    width: 360px;
+    margin: 0 auto;
+}
+
+.padding{
+    padding: 40px 90px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #4E4E4E;
+    height: 50px;
+}
+.menu {
+    margin: auto 0px;
+}
+a, span {
+    color: white;
+    font-family: roboto;
+    text-decoration: none;
+}
+
+header {
+    background-color: #4E4E4E;
+}
+
+.a-menu {
+    display: none;
+    margin: 10px 17px;
+}
+.home {
+    height: 100vh;
+    align-items: center;
+}
+#disabled{
+    cursor: not-allowed;
+}
+.background {
+    display: flex;
+    height: calc(100vh - 50px);
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: roboto;
+    color: white;
+    overflow: hidden;
+    align-content: center;
+}
+
+.text1 {
+    color: white; 
+    position: relative;
+    z-index: 1;
+}
+.filter {
+    background-color: rgb(0, 0, 0, 0.1);
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: roboto;
+}
+p{
+    font-family: roboto;
+    font-weight: 400;
+}
+h2{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: roboto;
+}
+.space2{
+    margin: 7% 0 7% 0;
+}
+.heading{
+    width: 577px;
+}
+.button{
+    width: 164px;
+    height: 40.74px;
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    background: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: roboto;
+    transition: color 1s;
+    transition: background-color 1s;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: white;
+    color: black;
+}
+.circle1{
+    width: 200px !important;
+    height: 200px !important;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    background-image: url(ben-parker1.jpg);
+    background-position: 50% 30%;    
+}
+.circle2{
+    width: 200px !important;
+    height: 200px !important;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    background-image: url(michael-dam1.jpg);
+    background-position: 50% 15%;
+}
+.name1 {
+display: flex;
+flex-direction: column;
+justify-content: center;
+height: 100px;
+}
+
+.proffesionals1{
+    background-color: #F1F1F1;
+}
+.person1{
+    height: auto;
+}
+.workers1{
+    display: flex;
+    gap: 60px;
+    margin-top: -15px;
+}
+.workers1:nth-of-type(even) {
+    flex-direction: row-reverse;
+}
+.workers1:nth-of-type(odd) {
+    flex-direction: row;
+}
+.right{
+    text-align: right;
+}
+.surname{
+    font-family: roboto;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.offer{
+    background-color: #405D78;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 63px;
+    justify-items: center;
+    position: relative;
+}
+.service{
+    background-color: #F1F1F1;
+    width: 198px;
+    height: 194px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.5s;
+    position: relative;
+}
+.service:hover{
+transform: scale(1.05);
+}
+.h1-padding{
+    padding-bottom: 83px;
+}
+.h1-padding-white{
+    padding-bottom: 83px;
+    color: #FFFFFF;
+}
+.p-service{
+font-size: 24px;
+}
+.p-small{
+    font-size: 18px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    height: 71px;
+    background-color: #4E4E4E;
+    align-items: center;
+}
+.p-company-name{
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.icons{
+    display: flex;
+    gap: 18px;
+}
+
+.dot::before{
+    content: url(ellipse.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    transition-property: transform;
+    transition-duration: 0.5s;
+}
+
+@media screen and (min-width: 1400px) {
+    
+}
