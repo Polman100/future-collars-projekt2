@@ -124,6 +124,7 @@ h2{
     background-position: 50% 30%;    
 }
 .circle2{
+    margin-top: 50px;
     width: 200px !important;
     height: 200px !important;
     border-radius: 50%;
@@ -147,14 +148,18 @@ max-width: 360px;
 }
 .workers1{
     display: flex;
-    gap: 60px;
-    margin-top: -15px;
+    gap: 40px;
+    /* margin-top: -15px; */
 }
 .workers1:nth-of-type(even) {
     flex-direction: column;
 }
 .workers1:nth-of-type(odd) {
     flex-direction: column;
+}
+
+p {
+    text-align: justify;
 }
 
 .surname{
@@ -167,16 +172,21 @@ max-width: 360px;
 }
 .grid{
     display: grid;
+    max-width: 100vw;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     gap: 63px;
     justify-items: center;
-    position: relative;
+    /* position: relative; */
+    margin-left: -10px;
 }
 .service{
     background-color: #F1F1F1;
-    width: 198px;
-    height: 194px;
+    min-width: 198px;
+    width: 80vw;
+    aspect-ratio: 1 / 1;
+    margin-left: 10vw;
+    margin-right: 10vw;
     display: flex;
     flex-direction: column;
     align-items: center;
