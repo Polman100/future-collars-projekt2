@@ -179,7 +179,7 @@ p {
     gap: 63px;
     justify-items: center;
     /* position: relative; */
-    margin-left: -10px;
+    /* margin-left: -10px; */
 }
 .service{
     background-color: #F1F1F1;
