@@ -201,10 +201,13 @@ transform: scale(1.05);
 }
 .h1-padding{
     padding-bottom: 83px;
+    text-align: center;
+
 }
 .h1-padding-white{
     padding-bottom: 83px;
     color: #FFFFFF;
+    text-align: center;
 }
 .p-service{
 font-size: 24px;
