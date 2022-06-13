@@ -160,6 +160,7 @@ max-width: 360px;
 
 p {
     text-align: justify;
+    margin-right: 10px;
 }
 
 .surname{
@@ -185,8 +186,8 @@ p {
     min-width: 198px;
     width: 80vw;
     aspect-ratio: 1 / 1;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    /* margin-left: 10vw;
+    margin-right: 10vw; */
     display: flex;
     flex-direction: column;
     align-items: center;
