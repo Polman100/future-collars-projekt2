@@ -149,6 +149,7 @@ max-width: 360px;
 .workers1{
     display: flex;
     gap: 40px;
+    align-items: center;
     /* margin-top: -15px; */
 }
 .workers1:nth-of-type(even) {
@@ -217,6 +218,7 @@ footer{
     height: 71px;
     background-color: #4E4E4E;
     align-items: center;
+    flex-direction: column;
 }
 .p-company-name{
     font-size: 18px;
