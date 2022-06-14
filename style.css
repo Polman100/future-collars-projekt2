@@ -243,8 +243,15 @@ footer{
     transition-property: transform;
     transition-duration: 0.5s;
 }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .menu {
+        background-color: red;
+    }
 
-@media screen and (min-width: 670px) {
+}
+
+
+@media screen and (min-width: 1024px) {
     .container {
         width: 100%;
         display: flex;
@@ -299,6 +306,9 @@ footer{
     }
     .right{
         text-align: right !important;
+    }
+    p {
+        margin: initial;
     }
     /* --------------------------------------------------- */
     .grid{
