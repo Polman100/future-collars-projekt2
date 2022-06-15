@@ -187,6 +187,7 @@ p {
     background-color: #F1F1F1;
     min-width: 198px;
     width: 80vw;
+    max-height: 50vh;
     aspect-ratio: 1 / 1;
     /* margin-left: 10vw;
     margin-right: 10vw; */
