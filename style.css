@@ -236,6 +236,7 @@ footer{
 .icons{
     display: flex;
     gap: 18px;
+    margin-bottom: 10px;
 }
 
 .dot::before{
@@ -325,6 +326,9 @@ footer{
     .h1-padding-white{
         text-align: initial;
     }
+    .icons {
+        margin-top: 10px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -410,5 +414,8 @@ footer{
     }
     footer{
         flex-direction: row;
+    }
+    .icons{
+        margin-bottom: 0px;
     }
 }
