@@ -223,10 +223,10 @@ font-size: 24px;
 footer{
     display: flex;
     justify-content: space-between;
-    height: 71px;
     background-color: #4E4E4E;
     align-items: center;
     flex-direction: column;
+    padding: 10px 0;
 }
 .p-company-name{
     font-size: 18px;
@@ -247,6 +247,9 @@ footer{
     transform: translate(-50%, -50%);
     transition-property: transform;
     transition-duration: 0.5s;
+}
+i.fa-brands {
+    font-size: 40px;
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .container {
